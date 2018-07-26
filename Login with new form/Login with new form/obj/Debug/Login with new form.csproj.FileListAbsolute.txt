@@ -1,0 +1,49 @@
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\bin\Debug\Login with new form.exe.config
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\bin\Debug\Login with new form.exe
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\bin\Debug\Login with new form.pdb
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\obj\Debug\Login with new form.csprojResolveAssemblyReference.cache
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Form1.resources
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Properties.Resources.resources
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\obj\Debug\Login with new form.csproj.GenerateResource.cache
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\obj\Debug\Login with new form.csproj.CoreCompileInputs.cache
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\obj\Debug\Login with new form.exe
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\obj\Debug\Login with new form.pdb
+C:\Users\Δημήτρης\Desktop\c# εργαστηρια\dika moy\Login with new form\Login with new form\obj\Debug\Login_with_new_form.MainForm.resources
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\bin\Debug\Login with new form.exe.config
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\bin\Debug\Login with new form.exe
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\bin\Debug\Login with new form.pdb
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login with new form.csprojResolveAssemblyReference.cache
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login_with_new_form.Form1.resources
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login_with_new_form.MainForm.resources
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login_with_new_form.Properties.Resources.resources
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login with new form.csproj.GenerateResource.cache
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login with new form.csproj.CoreCompileInputs.cache
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login with new form.exe
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login with new form.pdb
+C:\Users\Δημήτρης\Desktop\ui ux\Login with new form\obj\Debug\Login_with_new_form.Fridge.resources
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\bin\Debug\Login with new form.exe.config
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\bin\Debug\Login with new form.exe
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\bin\Debug\Login with new form.pdb
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login with new form.csprojResolveAssemblyReference.cache
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Form1.resources
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Fridge.resources
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login_with_new_form.MainForm.resources
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Properties.Resources.resources
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login with new form.csproj.GenerateResource.cache
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login with new form.csproj.CoreCompileInputs.cache
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login with new form.exe
+C:\Users\Δημήτρης\Desktop\Login with new form\Login with new form\obj\Debug\Login with new form.pdb
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\bin\Debug\Login with new form.exe.config
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\bin\Debug\Login with new form.exe
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\bin\Debug\Login with new form.pdb
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login with new form.csprojResolveAssemblyReference.cache
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Form1.resources
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Fridge.resources
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login_with_new_form.MainForm.resources
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Properties.Resources.resources
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login with new form.csproj.GenerateResource.cache
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login with new form.csproj.CoreCompileInputs.cache
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login with new form.exe
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login with new form.pdb
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Fota.resources
+C:\Users\Δημήτρης\Desktop\ergasia virvoy ui-ux\Login with new form\Login with new form\obj\Debug\Login_with_new_form.Ntoulapa.resources
