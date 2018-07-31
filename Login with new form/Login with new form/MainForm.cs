@@ -63,5 +63,50 @@ namespace Login_with_new_form
             //twra h prwth form kryvetai
             this.Hide();
         }
+
+        private void fridge_MouseHover(object sender, EventArgs e)
+        {
+            toolTip1.Show("Open the fridge", fridge);
+        }
+
+        private void ntoylapa_MouseHover(object sender, EventArgs e)
+        {
+            toolTip2.Show("Open the wardrobe", ntoylapa);
+        }
+
+        private void lights_MouseHover(object sender, EventArgs e)
+        {
+            toolTip3.Show("Open the lights", lights);
+        }
+
+        private void heat_MouseHover(object sender, EventArgs e)
+        {
+            toolTip4.Show("Open the heat", heat);
+        }
+
+        private void tv_MouseHover(object sender, EventArgs e)
+        {
+            toolTip5.Show("Open the TV", tv);
+        }
+
+        private void radiofwno_MouseHover(object sender, EventArgs e)
+        {
+            toolTip6.Show("Open the radio", radiofwno);
+        }
+
+        private void kafetiera_MouseHover(object sender, EventArgs e)
+        {
+            toolTip7.Show("Open the coffe machine", kafetiera);
+        }
+
+        private void vrastiras_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void vrastiras_MouseHover(object sender, EventArgs e)
+        {
+            toolTip8.Show("Open the boiler", vrastiras);
+        }
     }
 }

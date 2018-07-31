@@ -146,5 +146,55 @@ namespace Login_with_new_form
             //emfanish ths katallhlhs leitoyrgias
             pictureBox4.Show();
         }
+
+        private void ygrasia_MouseHover(object sender, EventArgs e)
+        {
+            toolTip1.Show("Check the moisture", ygrasia);
+        }
+
+        private void hmerologio_MouseHover(object sender, EventArgs e)
+        {
+            toolTip2.Show("Check the calendar", hmerologio);
+        }
+
+        private void radiofwno_MouseHover(object sender, EventArgs e)
+        {
+            toolTip3.Show("Open the radio", radiofwno);
+        }
+
+        private void kairos_MouseHover(object sender, EventArgs e)
+        {
+            toolTip4.Show("Check the weather", kairos);
+        }
+
+        private void web_MouseHover(object sender, EventArgs e)
+        {
+            toolTip5.Show("Open the browser", web);
+        }
+
+        private void thermokrasia_MouseHover(object sender, EventArgs e)
+        {
+            toolTip6.Show("Check the temperature", thermokrasia);
+        }
+
+        private void syntages_MouseHover(object sender, EventArgs e)
+        {
+            toolTip7.Show("Search for cooking recipes", syntages);
+        }
+
+        private void camera_MouseHover(object sender, EventArgs e)
+        {
+            toolTip8.Show("Open the camera", camera);
+        }
+
+        private void onlineoffers_MouseHover(object sender, EventArgs e)
+        {
+            toolTip9.Show("Check for online ofers", onlineoffers);
+        }
+
+        private void agoraproiontwn_MouseHover(object sender, EventArgs e)
+        {
+            toolTip10.Show("Buy products ", agoraproiontwn);
+        }
     }
 }

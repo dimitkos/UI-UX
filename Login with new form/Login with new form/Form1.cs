@@ -17,6 +17,8 @@ namespace Login_with_new_form
 
         Dictionary<String, String> accounts = new Dictionary<string, string>();
 
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
 
         public Form1()
         {
@@ -33,10 +35,13 @@ namespace Login_with_new_form
             accounts.Add("jim", "123");
             //8a pros8eso ke ena deftero account
             accounts.Add("a", "123");
+
+            player.SoundLocation = "buttonclick.wav";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            player.Play();
             //vazoume mia metavliti password
             String password = "";
             //tha valoume enan elegxo opou tha vlepoume an yparxei to account sto dictionary pou ftiaksame
@@ -74,12 +79,14 @@ namespace Login_with_new_form
 
         private void button2_Click(object sender, EventArgs e)
         {
+            player.Play();
             //me to pou pathsoume register anoigei to neo panel gia na kanoume eggrafh
             Registerpanel.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            player.Play();
             try
             {
                 //elegxei an ayto to pass pou evale ox rhsths einai idio me to repeat pass
@@ -103,6 +110,37 @@ namespace Login_with_new_form
             {
                 //MessageBox.Show(ex.Message);
                 MessageBox.Show("Account " + usertext.Text + " " + "already exists!");
+            }
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            toolTip1.Show("Login in SmartHouse", button1);
+        }
+
+        private void button2_MouseHover(object sender, EventArgs e)
+        {
+            toolTip2.Show("Register an account for the SmartHouse", button2);
+        }
+
+        private void button4_MouseHover(object sender, EventArgs e)
+        {
+            toolTip3.Show("Create an account for SmartHouse", button4);
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //otan pame na klisoume thn efarmogh patwntas x,tha vgei ena mnm pou tha mas rwtaei ti theloume na kanoume
+            //an pathsoume nai tote tha klisei alliws oxi tha meinei opws einai
+            DialogResult dialogResult = MessageBox.Show("Are you sure want to exit?", "Question", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                e.Cancel = false;
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+
+                e.Cancel = true ;
             }
         }
     }

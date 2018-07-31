@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -53,6 +54,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
@@ -100,6 +107,8 @@
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Νυχτερινή Λειτουργία Σπιτιού";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.checkBox1.MouseHover += new System.EventHandler(this.checkBox1_MouseHover);
             // 
             // label14
             // 
@@ -162,6 +171,7 @@
             this.numericUpDown5.Size = new System.Drawing.Size(34, 20);
             this.numericUpDown5.TabIndex = 38;
             this.numericUpDown5.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.numericUpDown5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.numericUpDown5_MouseUp);
             // 
             // label7
             // 
@@ -189,6 +199,7 @@
             this.numericUpDown4.Size = new System.Drawing.Size(34, 20);
             this.numericUpDown4.TabIndex = 35;
             this.numericUpDown4.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.numericUpDown4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.numericUpDown4_MouseUp);
             // 
             // label5
             // 
@@ -216,6 +227,7 @@
             this.numericUpDown3.Size = new System.Drawing.Size(34, 20);
             this.numericUpDown3.TabIndex = 32;
             this.numericUpDown3.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.numericUpDown3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.numericUpDown3_MouseUp);
             // 
             // label3
             // 
@@ -243,6 +255,7 @@
             this.numericUpDown2.Size = new System.Drawing.Size(34, 20);
             this.numericUpDown2.TabIndex = 29;
             this.numericUpDown2.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.numericUpDown2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.numericUpDown2_MouseUp);
             // 
             // panel1
             // 
@@ -280,6 +293,7 @@
             this.numericUpDown1.Size = new System.Drawing.Size(34, 20);
             this.numericUpDown1.TabIndex = 25;
             this.numericUpDown1.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.numericUpDown1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.numericUpDown1_MouseUp);
             // 
             // pictureBox1
             // 
@@ -364,5 +378,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip3;
+        private System.Windows.Forms.ToolTip toolTip4;
+        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ToolTip toolTip6;
     }
 }

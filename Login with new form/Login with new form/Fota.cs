@@ -34,5 +34,40 @@ namespace Login_with_new_form
         {
             richTextBox1.ReadOnly = true;
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_MouseHover(object sender, EventArgs e)
+        {
+            toolTip1.Show("Check the box for the night function", checkBox1);
+        }
+
+        private void numericUpDown1_MouseUp(object sender, MouseEventArgs e)
+        {
+            toolTip2.Show("Increase or decrease the intensity of light ", numericUpDown1);
+        }
+
+        private void numericUpDown2_MouseUp(object sender, MouseEventArgs e)
+        {
+            toolTip3.Show("Increase or decrease the intensity of light ", numericUpDown2);
+        }
+
+        private void numericUpDown3_MouseUp(object sender, MouseEventArgs e)
+        {
+            toolTip4.Show("Increase or decrease the intensity of light ", numericUpDown3);
+        }
+
+        private void numericUpDown4_MouseUp(object sender, MouseEventArgs e)
+        {
+            toolTip5.Show("Increase or decrease the intensity of light ", numericUpDown4);
+        }
+
+        private void numericUpDown5_MouseUp(object sender, MouseEventArgs e)
+        {
+            toolTip6.Show("Increase or decrease the intensity of light ", numericUpDown5);
+        }
     }
 }

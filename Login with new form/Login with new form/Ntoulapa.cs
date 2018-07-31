@@ -31,5 +31,10 @@ namespace Login_with_new_form
                 "\n\n" +
                 "Κοντομάνικη Μπλούζα με Τζίν παντελόνι χωρίς μπουφάν");
         }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            toolTip1.Show("Check for suggesting clothes", button1);
+        }
     }
 }
