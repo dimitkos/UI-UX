@@ -120,6 +120,7 @@
             this.radiofwno.TabIndex = 5;
             this.radiofwno.Text = "Ραδιόφωνο";
             this.radiofwno.UseVisualStyleBackColor = true;
+            this.radiofwno.Click += new System.EventHandler(this.radiofwno_Click);
             this.radiofwno.MouseHover += new System.EventHandler(this.radiofwno_MouseHover);
             // 
             // kafetiera

@@ -17,8 +17,8 @@ namespace Login_with_new_form
 
         Dictionary<String, String> accounts = new Dictionary<string, string>();
 
-        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-
+        System.Media.SoundPlayer success = new System.Media.SoundPlayer();
+        System.Media.SoundPlayer fail = new System.Media.SoundPlayer();
 
         public Form1()
         {
@@ -36,12 +36,13 @@ namespace Login_with_new_form
             //8a pros8eso ke ena deftero account
             accounts.Add("a", "123");
 
-            player.SoundLocation = "buttonclick.wav";
+            success.SoundLocation = "success.wav";
+            fail.SoundLocation = "fail.wav";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            player.Play();
+            
             //vazoume mia metavliti password
             String password = "";
             //tha valoume enan elegxo opou tha vlepoume an yparxei to account sto dictionary pou ftiaksame
@@ -52,6 +53,8 @@ namespace Login_with_new_form
                 //elegxei an to pass pou edwse o xrhsths einai idio me to pass pou einia mesa sto dictionary
                 if (password == textBox2.Text)
                 {
+                    //tha vgalei hxo epityxias
+                    success.Play();
                     //tha vgalei mhnyma epityxias tou login
                     MessageBox.Show("Login successfull");
 
@@ -65,33 +68,38 @@ namespace Login_with_new_form
                 }
                 else
                 {
-
+                    fail.Play();
+                    System.Threading.Thread.Sleep(500);
                     MessageBox.Show("Wrong password");
                 }
 
             }
             else
             {
+                fail.Play();
+                System.Threading.Thread.Sleep(500);
                 //Ean den iparxi to account sto dictionary mesa na kani print afto sto msqbox
+
                 MessageBox.Show("Account does not exist"); 
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            player.Play();
+            
             //me to pou pathsoume register anoigei to neo panel gia na kanoume eggrafh
             Registerpanel.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            player.Play();
+            
             try
             {
                 //elegxei an ayto to pass pou evale ox rhsths einai idio me to repeat pass
                 if(passBox.Text == passboxrpt.Text)
                 {
+                    success.Play();
                     //an einai swsta ta pass pou evale tote prosthetei sto dictionary to user kai pass
                     accounts.Add(usertext.Text, passBox.Text);
                     MessageBox.Show("Account created succesfully");
@@ -100,6 +108,8 @@ namespace Login_with_new_form
                 }
                 else
                 {
+                    fail.Play();
+                    System.Threading.Thread.Sleep(500);
                     //an valei diaforetika pass tou vgazei to parakatw mnm
                     MessageBox.Show("Password mismatch");
                 }
@@ -108,6 +118,9 @@ namespace Login_with_new_form
             //mhn crasharei alla na vgalei ena mnm
             catch (Exception ex)
             {
+
+                fail.Play();
+                System.Threading.Thread.Sleep(500);
                 //MessageBox.Show(ex.Message);
                 MessageBox.Show("Account " + usertext.Text + " " + "already exists!");
             }

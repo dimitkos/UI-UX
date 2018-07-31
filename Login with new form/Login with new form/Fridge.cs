@@ -12,6 +12,7 @@ namespace Login_with_new_form
 {
     public partial class Fridge : Form
     {
+        System.Media.SoundPlayer radio = new System.Media.SoundPlayer();
         public Fridge()
         {
             InitializeComponent();
@@ -21,6 +22,7 @@ namespace Login_with_new_form
             pictureBox2.Hide();
             pictureBox3.Hide();
             pictureBox4.Hide();
+            radio.SoundLocation = "radio.wav";
         }
 
         private void Fridge_FormClosing(object sender, FormClosingEventArgs e)
@@ -70,6 +72,9 @@ namespace Login_with_new_form
 
         private void radiofwno_Click(object sender, EventArgs e)
         {
+            //ksekinaei na paizie moysikh 
+            radio.Play();
+
             //ta kanoume ola hide wste h forma na einai katharh me to pathma twn koympiwn
             monthCalendar1.Hide();
             pictureBox1.Hide();

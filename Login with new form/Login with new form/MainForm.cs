@@ -12,9 +12,11 @@ namespace Login_with_new_form
 {
     public partial class MainForm : Form
     {
+        System.Media.SoundPlayer radio = new System.Media.SoundPlayer();
         public MainForm()
         {
             InitializeComponent();
+            radio.SoundLocation = "radio.wav";
         }
 
 
@@ -107,6 +109,11 @@ namespace Login_with_new_form
         private void vrastiras_MouseHover(object sender, EventArgs e)
         {
             toolTip8.Show("Open the boiler", vrastiras);
+        }
+
+        private void radiofwno_Click(object sender, EventArgs e)
+        {
+            radio.Play();
         }
     }
 }
